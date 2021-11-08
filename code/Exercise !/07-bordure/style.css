@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+}
+
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    padding: 10px;
+    border-color: khaki;
+    border-top:dashed 2px salmon ;
+    border-right: 10px double navy;
+    border-bottom: 30px ridge fuchsia;
+    border-left: none;
+    text-shadow: 1px 1px 1px black;
+    /* pour les ombres, décalage horizontale, vertical, intensité de flou, (augmentation de la taille de l'ombre), couleur */
+}
+
+
+
+.div {
+    height: 200px;
+    width: 200 px;
+    background-color: lightblue;
+    margin-top: 20px;
+    border: 10px solid fuchsia;
+    border-radius: 10px 20px 30px 40px;
+    box-shadow: 10px 10px 10px 10px ;
+    }
+    
+    
+    .div2 {
+        border-style: double;
+    }
+    
+    .div3 {
+        border-style: dotted;
+    }
+    
+    .div4 {
+        border-style: dashed;
+    }
+    .div5 {
+        border-style: inset;
+    }
+    .div6 {
+        border-style: groove;
+    }
+    
+    
+    .top{
+        width: 0;
+        height: 0;
+        background-color: transparent;
+        border-top: 50px solid transparent;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid black;
+    }

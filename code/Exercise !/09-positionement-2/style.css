@@ -1,0 +1,23 @@
+.box{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: salmon;
+
+}
+
+.container{
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    background-color:  burlywood;
+
+    display: flex;
+    justify-content: center; /*center ou space-evenly-space-around*/
+    align-items: flex-end;
+}
+
+.boxSmall{
+    align-self: center;
+
+}

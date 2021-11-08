@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+@font-face {
+    font-family: bismillah;
+    src: url(./fonts/Nunito-Regular.ttf) format(truetype);
+}
+
+body{
+    padding: 30px;
+    font-family:'Oxygen', sans-serif;
+}

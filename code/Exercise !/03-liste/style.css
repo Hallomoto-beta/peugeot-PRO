@@ -1,0 +1,22 @@
+.title {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline wavy red;
+    font-weight: 200; /* 900 de graisse c'est le plus gros et 400 c'est de base */
+    color: pink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+}
+
+.sub-title {
+    font-size: 30px;
+}
+
+#list1 {
+ list-style-type: lower-greek;
+}
+
+#list2 {
+    list-style-type: square;
+}

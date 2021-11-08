@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"
+    <title>Mon dernier formulaire moche</title>
+</head>
+<body>
+    <form action="javascript:void(0)" method="post">
+        <div>
+            <label for="nom">Nom</label>
+            <input type="text" name="nom_de_la_familly" id="nom" placeholder="Entrez votre nom">
+        </div>
+        <div>
+            <input type="number" name="" id="" >
+            <input type="color" name="" id="">
+            <input type="time" name="" id="">
+            <input type="date" name="" id="">
+            <input type="e-mail" name="" id="">
+            <input type="password" name="" id="">
+        </div>
+        <div>
+            <label for="ceQueJeVeux">je valide ce que je sais sur les form :-p</label>
+            <input type="checkbox" name="courshtml" id="ceQueJeVeux">
+        </div>
+
+        <div>
+            <h2>Ton animal préféré</h2>
+            <input type="radio" name="animal" id="chat" value="chat">
+            <label for="chat" >chat</label>
+            
+            <input type="radio" name="animal" id="chien" value="chien">
+            <label for="chien">chien</label>
+        </div>
+
+        <div>
+            <label for="text" >Mes remarque de type violentes sur le cours du super-max</label>
+            <br>
+            <br>
+            <textarea name="monTexte" id="text" cols="30" rows="10" maxlength="50"></textarea>
+        </div>
+        
+        <div>
+            <h2>choisis une de tes couleur favorites :</h2>
+            <select name="color" id="color"multiple><!-- multiple affiche plusieur choix ( moche ) -->
+                <option value="default" selected disabled>choisiez une couleur</option> <!-- selected selectionné de base  ---   disabled non selectionable de base -->
+                <option value="burlywood">burlywood</option>
+                <!--optgroup nous permet de crée un groupe contenant des sous choix -->
+                <optgroup label="Rouge">
+                    <option value="pourpe">pourpe</option>
+                    <option value="Blackred">Rouge Foncé</option>
+                </optgroup>
+            </select>
+        </div>
+       
+    </form>
+
+    <button type="submit">envoyer</button>
+    <button type="reset">Annuler</button>
+</body>
+</html>

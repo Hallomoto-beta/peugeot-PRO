@@ -1,0 +1,143 @@
+/*body {
+    margin: 250px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blue;
+    color: black;
+}
+*/
+
+
+/*header{
+    margin: 125px auto;
+    width: 250px;
+    background-color: aqua;
+    padding: 10px;
+    position: relative;
+}
+*/
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    width: 800px;
+    
+    padding: 10px;
+    position: relative;
+    }
+li header{
+    margin: 10px;
+    width: 800px;
+    height: 500px;
+    background-color: blue;
+    border-bottom:3px solid blue;
+    border-top: 3px solid blue;
+    border-left: 3px solid blue;
+    border-right: 3px solid blu/e;
+    padding: 10px;
+} */
+/* 
+
+.div{
+    display: flex;    
+} */
+/* 
+
+header{
+    background-color: blue;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    
+
+}
+body{
+    margin: 0;
+    display: inline;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    background-color: green;
+    color: black;
+    padding-top: 0;
+    margin-top: 0px;
+    margin-left: 0;
+    margin-bottom: 0px;
+}
+li a{
+    margin-bottom: 10% solid black;
+    margin-left: 10% solid black;
+    padding-left: 15px;
+}
+.promo1{
+    background-color: rgb(11, 11, 182);
+  
+    padding-bottom: 15px;
+    margin-top: 0px;
+    border-bottom: blue;
+    text-align: center;
+    
+}
+.promo1 a{
+ color: white;
+ margin-top: 0px;
+ text-align: center;
+} */
+/* a {
+    position: absolute;
+
+    top: 175px;
+    right: 500px;
+    background-color: gold;
+    color: blue;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+} */
+/* 
+h3{
+    background-color: pink;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 150px;
+    
+}
+h2{
+    background-color: orange;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    position: relative;
+    height: 75px;
+}
+
+footer{
+    background-color: gray;
+    color: aliceblue;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 10px;
+    font-size: 15px;
+} */
+
+
+/* 
+@media screen  and (min-width: 500px) and (max-width: 800px) {
+    body {
+background-color: red;
+font-size: 3em;
+    }
+} */
+
+

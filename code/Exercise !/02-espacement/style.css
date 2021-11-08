@@ -1,0 +1,17 @@
+div { /* je selectionne TOUTE les balises div */
+width: 250px; /*px, %, pt, vw, em, rem*/
+height: 350px;
+background-color: coral;
+padding: 100px;
+margin: 100px;
+padding: 50px 20px;
+/* Premiere valeur: en haut, à gauche et Deuxième valeur: à droite et à gauche, Si il y a 4 valeurs, ca fonctionne dans le sens des aiguilles d'une montre */
+margin: 0 auto;
+/* Centrer automatiquement */
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              alt + shift + x                              */
+/* -------------------------------------------------------------------------- */
+/* alt + y */
+/* -------------------------------------------------------------------------- */

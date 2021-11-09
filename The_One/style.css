@@ -1,7 +1,28 @@
 @font-face {
+    font-family: 'roboto1', sans-serif;
+    src: url(./Assets/Fonts/roboto-v20-latin-300.ttf);
+}
+@font-face {
     font-family: 'Roboto', sans-serif;
     src: url(./The_One/Assets/Fonts/Roboto-Regular.ttf ) format(truetype);
 }
+
+@font-face{
+    font-family:"rob2";
+    src: url("./fonts/roboto-v20-latin-500.woff") format("truetype");
+    }
+    
+@font-face{
+    font-family:"rob3";
+    src: url("./fonts/roboto-v20-latin-700.woff") format("truetype");
+}
+
+@font-face{
+    font-family:"rob4";
+    src: url("./fonts/roboto-v20-latin-900.woff") format("truetype");
+}
+
+
 html{
     background-color: white;
 }
@@ -14,22 +35,20 @@ body{
 header{
     background-color: rgb(13, 13, 70);
     width: 100%;
+    display: flex;
 }
 header img{
     width: 100px;
 }
 nav{
     display: flex;
-    justify-content: space-between;
-
 }
 .menu{
     color: white;
-    display:inline-flex;
-    text-align: center;
-    justify-content: 0 auto;
-}
+    display: flex;
+    justify-content: space-between;
 
+}
 .S1{
     margin: 0 auto;
     

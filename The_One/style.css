@@ -2,17 +2,41 @@
     font-family: 'Roboto', sans-serif;
     src: url(./The_One/Assets/Fonts/Roboto-Regular.ttf ) format(truetype);
 }
-
+html{
+    background-color: white;
+}
 body{
-    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+
 }
 
+header{
+    background-color: rgb(13, 13, 70);
+    width: 100%;
+}
+header img{
+    width: 100px;
+}
 nav{
+    display: flex;
     justify-content: space-between;
 
+}
+.menu{
+    color: white;
+    display:inline-flex;
+    text-align: center;
+    justify-content: 0 auto;
 }
 
 .S1{
     margin: 0 auto;
     
+}
+
+li{
+    list-style: none;
+    display: inline;
+
 }

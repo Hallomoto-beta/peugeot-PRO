@@ -7,3 +7,12 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+nav{
+    justify-content: space-between;
+
+}
+
+.S1{
+    margin: 0 auto;
+    
+}
